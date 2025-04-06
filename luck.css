@@ -1,0 +1,101 @@
+
+  .luck-info h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+  }
+
+  .luck-info {
+    width: 100%;
+    max-width: 800px;
+    background-color: #2b2b3d;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    color: #f0e6fa;
+  }
+  
+  .luck-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .luck-card {
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .luck-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .luck-info h3 {
+    color: #2c3e50;
+  }
+  
+  /* Apply pastel colors to the first 6 h2 elements */
+  #luck-info1 {
+    color: #f9c0c0; /* Pastel pink */
+  }
+  
+  #luck-info2 {
+    color: #c0f9c0; /* Pastel green */
+  }
+  
+  #luck-info3 {
+    color: #c0c0f9; /* Pastel blue */
+  }
+  
+  #luck-info4 {
+    color: #f9f0c0; /* Pastel yellow */
+  }
+  
+  #luck-info5 {
+    color: #f9c0f9; /* Pastel purple */
+  }
+  
+  #luck-info6 {
+    color: #c0f0f9; /* Pastel aqua */
+  }
+  
+  .luck-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .luck-card p:first-child {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .luck-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+  /* Success Rate Styling */
+.success-rate {
+    font-size: 1.5em;
+    color: #3498db;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Success Count Styling */
+  .success-count {
+    font-size: 1.2em;
+    color: #2ecc71; /* Green color for success */
+    text-align: center;
+    margin-top: 10px;
+  }

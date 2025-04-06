@@ -1,0 +1,81 @@
+.defrag-log {
+    width: 100%;
+    max-width: 800px;
+    background-color: #2b2b3d;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    color: #f0e6fa;
+  }
+
+  .card {
+    background-color: #1e1e2f;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 700px;
+    text-align: center;
+  }
+  .header {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  .text-feed {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    word-break: break-word;
+    white-space: pre-wrap;
+  }
+  .btn-group button, .copy-btn {
+    background-color: #2b2b3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .btn-group button:hover, .copy-btn:hover {
+    opacity: 0.8;
+  }
+  .btn-group {
+    margin-bottom: 20px;
+  }
+
+  .memory-fragment {
+    margin-right: 5px;
+  }
+  
+  .memory-good {
+    color: #a8e6a3; /* pastel green */
+  }
+  
+  .memory-negative {
+    color: #f7a3a3; /* pastel red */
+  }
+  
+  .memory-music {
+    color: #a3c9f7; /* pastel blue */
+  }
+  
+  .memory-neutral {
+    color: white;
+  }
+  
+  .source-log {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .source-item {
+    margin-bottom: 5px;
+  }
+  

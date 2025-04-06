@@ -1,0 +1,45 @@
+
+  
+  /* Health Log Section */
+  .health-log {
+    width: 100%;
+    max-width: 800px;
+    background-color: #2b2b3d;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    color: #f0e6fa;
+  }
+  
+  .health-log h3 {
+    font-size: 1.5em;
+    color: #ffd1d1; /* Light Pink */
+    margin-bottom: 10px;
+  }
+
+
+  .health-log h4 {
+    margin-bottom: 20px;
+  }
+  
+  .health-log .log-entry {
+    background-color: #1e1e2f;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .health-log .log-description {
+    color: #f0e6fa;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+  
+
+  /* Empty circle styling */
+.circle.empty {
+    background-color: #2b2b3d; /* Dark background for empty circles */
+  }
