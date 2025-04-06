@@ -22,9 +22,9 @@ const koreanMemories = [
 ];
 
 const pastMemories = [
-  { text: '"She never came back that day~"', source: 'Archive #19', mood: 'negative' },
-  { text: '"They said it was an accident —"', source: 'Report B12', mood: 'negative' },
-  { text: '"He remembers the smell of smoke, always the smoke~"', source: 'Memory Residue', mood: 'negative' }
+  { text: 'Placeholder', source: '???', mood: 'negative' },
+  { text: 'Placeholder', source: '???', mood: 'negative' },
+  { text: 'Placeholder', source: '???', mood: 'negative' }
 ];
 
 const distortionMatrix = {
