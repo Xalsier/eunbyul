@@ -10,7 +10,7 @@
   }
 
   .card {
-    background-color: #1e1e2f;
+    background-color: #0f0f12;
     border-radius: 16px;
     padding: 30px;
     max-width: 700px;
@@ -50,7 +50,7 @@
   }
   
   .memory-good {
-    color: #a8e6a3; /* pastel green */
+    color: white; /* pastel green */
   }
   
   .memory-negative {
@@ -58,7 +58,7 @@
   }
   
   .memory-music {
-    color: #a3c9f7; /* pastel blue */
+    color: #ffffff; /* pastel blue */
   }
   
   .memory-neutral {
